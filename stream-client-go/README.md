@@ -10,6 +10,10 @@ type Payload struct {
 }
 ```
 
+```
+{"key":1, "type":"demo", "ts":"2024-05-17 21:51:46.489946 +0200 CEST m=+0.003927022", "value":"msg_1"}
+```
+
 ### Build
 ```
 make
