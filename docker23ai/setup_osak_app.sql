@@ -8,7 +8,7 @@ CREATE DIRECTORY OSAK_KAFKA_CONFIG AS '/home/oracle';
 BEGIN
         DBMS_CREDENTIAL.CREATE_CREDENTIAL(
                 CREDENTIAL_NAME => 'KAFKA1CRED',
-                USERNAME => 'tenancy/petr.blaha@oracle.com/ocid1.streampool.oc1.phx.a',
+                USERNAME => 'FetchedFromFile',
                 PASSWORD => 'Foo' -- Authentication token
         );
 END;
